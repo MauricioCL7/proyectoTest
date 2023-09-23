@@ -7,86 +7,131 @@ export class ProductService {
             {
                 id: '1000',
                 code: 'f230fh0g3',
-                name: 'Bamboo Watch',
+                name: 'CHAQUETA NEGRA',
                 description: 'Product Description',
-                image: 'bamboo-watch.jpg',
-                price: 100,
-                category: 'Accessories',
+                image: 'chamarra1.jpeg',
+                price: 110,
+                category: 'CHAQUETAS',
                 quantity: 24,
                 inventoryStatus: 'INSTOCK',
-                rating: 5
+                rating: 0,
+                ampliacion:'CHAQUETA NEGRA DE PIEL DE DURAZNO CON FRISA DENTRO '
+
             },
             {
                 id: '1001',
                 code: 'nvklal433',
-                name: 'Black Watch',
+                name: 'RELOJ FOSSIL MACHINE',
                 description: 'Product Description',
-                image: 'black-watch.jpg',
-                price: 72,
+                image: 'chamarra2.jpeg',
+                price: 91,
                 category: 'Accessories',
                 quantity: 61,
-                inventoryStatus: 'OUTOFSTOCK',
-                rating: 4
+                inventoryStatus: 'INSTOCK',
+                rating: 0,
+                ampliacion:'Importado\n' +
+                    'Fossil siempre se ha inspirado en la creatividad y el ingenio estadounidenses. Desde 1984, nos hemos esforzado por darle nueva vida a la industria fabricando relojes y accesorios modernos y de calidad que sean divertidos y accesibles.\n' +
+                    'Machine, una celebración de la fabricación estadounidense, es un clásico por una razón. Este reloj combina lo industrial (como una corona con cabeza de tornillo) con lo refinado. Su caja presenta una textura en forma de diamante que recuerda una técnica de mecanizado tradicional.\n' +
+                    'Tamaño de la caja: 42 mm; Tamaño de la banda: 22 mm; movimiento de cuarzo con pantalla analógica de tres manecillas y ventana de fecha; lente de cristal mineral endurecido resistente a rayones; importado\n' +
+                    'Caja de acero inoxidable negra con esfera negra con rayos de sol; pulsera de acero inoxidable negra; los eslabones se pueden quitar para un ajuste personalizado; intercambiable con todas las correas de reloj Fossil de 22 mm\n' +
+                    'Resistente al agua hasta 50 m (165 pies): adecuado para períodos cortos de natación y ducha recreativa, pero no para buceo ni snorkel; 5 cajeros automáticos\n' +
+                    'Personaliza tu reloj con un grabado gratuito en una tienda Fossil local. El grabado está disponible en las tiendas Fossil participantes a precio completo y outlet de EE. UU. y Canadá. Este servicio no es aplicable a todos los accesorios.'
             },
             {
                 id: '1002',
                 code: 'zz21cz3c1',
-                name: 'Blue Band',
+                name: 'XIAOMI Mi BAND',
                 description: 'Product Description',
                 image: 'blue-band.jpg',
-                price: 79,
+                price: 105.50,
                 category: 'Fitness',
                 quantity: 2,
-                inventoryStatus: 'LOWSTOCK',
-                rating: 3
+                inventoryStatus: 'INSTOCK',
+                rating: 0,
+                ampliacion: 'Xiaomi está un paso por delante: la marca de dispositivos portátiles número uno del mundo. La nueva Mi Band 7 es otro gran paso adelante.\n' +
+                    'Pantalla AMOLED de 1,62", alta resolución 192x490 y brillo de hasta 500 nits. Grandes mejoras con respecto a Mi Band 6: 1,52", 152x486 y 450 nits.\n' +
+                    '¡120 modos de fitness frente a 30 modos de fitness en Mi Band 6! La capacidad de la batería aumentó de 125 mAh en Mi Band 6 a 180 mAh ahora. Tiempo de carga unas 2 horas. Duración de la batería de 15 días. Cargue fácilmente con un cargador magnético para su estilo de vida en movimiento.\n' +
+                    'Nuevo sensor de oxígeno en sangre + monitorización de frecuencia cardíaca las 24 horas. Realice un seguimiento de 120 actividades diferentes.\n' +
+                    'Tecnología de sensores mejorada y Bluetooth 5.2.\n' +
+                    'Muchas más funciones: Cronómetro/Despertador/Temporizador/Buscar mi teléfono/Desbloqueo de teléfono/Recordatorio de evento/Modo No molestar/pantalla de bloqueo/control de música en la banda/Se carga fácilmente con pines de carga magnéticos/Control remoto de la cámara fotográfica/Salud femenina monitorizar/oxígeno en sangre y más'
             },
             {
                 id: '1003',
                 code: '244wgerg2',
-                name: 'Blue T-Shirt',
+                name: 'CAMISETA AZUL',
                 description: 'Product Description',
                 image: 'blue-t-shirt.jpg',
-                price: 29,
+                price: 10.36,
                 category: 'Clothing',
                 quantity: 25,
                 inventoryStatus: 'INSTOCK',
-                rating: 5
+                rating: 0,
+                ampliacion:'60% Poliéster reciclado, 30% Algodón, 10% Rayón\n' +
+                    'Importado\n' +
+                    'Cierre de tirar.\n' +
+                    'Lavar a maquina\n' +
+                    'BÁSICOS QUE ESTÁN LEJOS DE LO BÁSICO: una colección elegante de elementos esenciales modernos y modernos diseñados para la comodidad, hechos para cada cuerpo. Sea usted mismo en Hanes Originals.\n' +
+                    'Sensación suave y cómoda: nuestro mejor algodón, poliéster y rayón se unen para hacer esta camiseta suave y cómoda para hombre.\n' +
+                    'COMODIDAD AÑADIDA: cinta de hombro a hombro para mayor comodidad.\n' +
+                    'Calidad Hanes: fabricado por expertos con sisas cosidas con doble aguja.\n' +
+                    'Se adapta perfectamente: esta camiseta para hombre tiene un ajuste estándar para un estilo clásico.\n' +
+                    'FABRICADO CON MATERIALES RECICLADOS: una parte de esta camiseta se confeccionó con poliéster reciclado.\n' +
+                    'esta camiseta para hombre está disponible en una variedad de tallas como: XS, S, M, L, XL, XXL, XXXL'
             },
             {
                 id: '1004',
                 code: 'h456wer53',
-                name: 'Bracelet',
+                name: 'PULSERA FERAKO',
                 description: 'Product Description',
                 image: 'bracelet.jpg',
                 price: 15,
                 category: 'Accessories',
-                quantity: 73,
+                quantity: 28.33,
                 inventoryStatus: 'INSTOCK',
-                rating: 4
+                rating:0,
+                ampliacion:'Pulsera magnética de neodimio Pro: 46 imanes de neodimio en el interior de la pulsera de titanio para una mayor efectividad.\n' +
+                    'Pulsera de titanio: material de alta calidad, extremadamente ligero. A veces no puedes sentir su existencia. Es más resistente que el acero inoxidable pero pesa la mitad. 100% HIPOALERGÉNICO, SIN PLOMO NI NÍQUEL, resistente a los arañazos y resistente a la decoloración. El material del cierre es acero inoxidable, que es más duradero.\n' +
+                    'Diseño clásico: chapado al vacío IP negro de larga duración y revestimiento de laca, pulsera negra mate muy pulida más llamativa, con cierre fuerte que permanece en su sitio, fácil de combinar con todo tipo de ropa, relojes y accesorios.\n' +
+                    'Fácil de ajustar: largo 22,5 cm (8,86 pulgadas), ancho 1,5 cm (0,59 pulgadas), peso 40 g. Buen peso y cómodo de llevar. Viene con una herramienta de tamaño mejorada que le permite ajustar el tamaño fácilmente en casa.\n' +
+                    'Regalos de Navidad: elegante pulsera magnética para hombre empaquetada con una exquisita caja de joyería, perfecta para papá, esposo, familia, amigos durante Navidad, cumpleaños, aniversario, etc.'
             },
             {
                 id: '1005',
                 code: 'av2231fwg',
-                name: 'Brown Purse',
+                name: 'BILLETERA DE CUERO',
                 description: 'Product Description',
                 image: 'brown-purse.jpg',
-                price: 120,
+                price: 42.53,
                 category: 'Accessories',
                 quantity: 0,
-                inventoryStatus: 'OUTOFSTOCK',
-                rating: 4
+                inventoryStatus: 'INSTOCK',
+                rating: 0,
+                ampliacion:'100% cuero vacuno\n' +
+                    'Importado\n' +
+                    'Forro de cuero\n' +
+                    'Sin cierre de cierre\n' +
+                    'Sólo limpieza en seco\n' +
+                    'Fossil siempre se ha inspirado en la creatividad y el ingenio estadounidenses. Desde 1984, nos hemos esforzado por darle nueva vida a la industria fabricando relojes y accesorios modernos y de calidad que sean divertidos y accesibles.\n' +
+                    'Un diseño pulido le da a nuestro bolso plegable Wade de cuero negro un toque adicional de carácter de inspiración vintage. Nuestro cuero de alta calidad es conocido por su suavidad y su capacidad de lucir bien con el tiempo.\n' +
+                    'Material Exterior: 100% Cuero Genuino, importado.\n' +
+                    'Detalles interiores: 1 compartimento para billetes, 2 ventanas para identificación, 2 bolsillos deslizantes, 8 ranuras para tarjetas de crédito\n' +
+                    'Medidas:439"L x 050"W x 35"H'
             },
             {
                 id: '1006',
                 code: 'bib36pfvm',
-                name: 'Chakra Bracelet',
+                name: 'BRASALETE CHAKRA',
                 description: 'Product Description',
                 image: 'chakra-bracelet.jpg',
-                price: 32,
+                price: 6.28,
                 category: 'Accessories',
                 quantity: 5,
                 inventoryStatus: 'LOWSTOCK',
-                rating: 3
+                rating: 0,
+                ampliacion:'TAMAÑO: el diámetro de cada piedra de lava y cuenta de chakra es de 8 mm/0,31 pulgadas. El diámetro de las pulseras curativas elásticas para mujer es de 7 cm / 2,75 pulgadas. Estas pulseras elásticas con cuentas para hombre son ajustables y se adaptan a la mayoría de mujeres y hombres.\n' +
+                    'MATERIAL: cada pulsera de cristales y piedras curativas está hecha de docenas de piedras de lava natural y 7 cuentas de chakra, resistentes y duraderas, no se rompen ni se decoloran fácilmente. Las piedras de lava vienen en tres colores: blanco, negro y marrón. Las cuentas de los chakras son ágata roja, ojo de tigre ámbar, piedra real verde, amatista, lapislázuli y turquesa.\n' +
+                    'Función de pulsera: las pulseras de cuentas de chakras para mujer son de baja densidad y ligeras. Su sensación fresca en las manos puede reducir la ansiedad. Las pulseras trenzadas de chakras restauran y equilibran tu espíritu, saludable emocional y físicamente. Puedes dejar caer aceite esencial en la pulsera, las cuentas de lava absorben los aceites esenciales y duran todo el día. Ayudarte a meditar.\n' +
+                    'REGALO PERFECTO: las pulseras de chakras para mujer son un maravilloso regalo para amantes, familiares y amigos. Pueden usarlos para participar en yoga, deportes, meditación, etc. Los accesorios de meditación también pueden ser pulseras de cuentas para hombres, pulseras a juego para parejas, pulseras estéticas, pulseras para adolescentes, pulseras para niños, pulseras para parejas, pulseras para hombres. .'
             },
             {
                 id: '1007',

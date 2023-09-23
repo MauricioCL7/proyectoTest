@@ -14,8 +14,11 @@ import {SpeedDialModule} from 'primeng/speeddial';
 import {DataViewModule, DataViewLayoutOptions} from 'primeng/dataview';
 import {TagModule} from "primeng/tag";
 import {ProductService} from "../services/product-service";
+import { AccordionModule } from 'primeng/accordion';
+import {GalleriaModule} from "primeng/galleria";
+import {PhotoService} from "../services/photoservice";
+import {DropdownModule} from "primeng/dropdown";
 import {WelcomeComponent} from "../../../../components/pages/welcome/welcome.component";
-
 @NgModule({
     imports: [
         CommonModule,
@@ -30,12 +33,15 @@ import {WelcomeComponent} from "../../../../components/pages/welcome/welcome.com
         MultiSelectModule,
         SpeedDialModule,
         DataViewModule,
-        TagModule
+        TagModule,
+        AccordionModule,
+        GalleriaModule,
+        DropdownModule
     ],
     providers: [
-        ProductService
+        ProductService,PhotoService
     ],
-    declarations: [EmptyDemoComponent, WelcomeComponent]
+    declarations: [EmptyDemoComponent,WelcomeComponent]
 })
 export class EmptyDemoModule {
 }

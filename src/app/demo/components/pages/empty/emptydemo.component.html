@@ -1,92 +1,75 @@
 <div class="grid">
     <div class="col-12">
-        <div class="card" style="background-color:  #A3E4D7">
+        <div class="card" style="background-color:  rgba(255,255,255,0.62)">
 
-            <h4>tio puto</h4>
-            <p>TEST PAGINA</p>
-            <div class="grid">
-                <div class="col-12">
-                    <p-image src="assets/imagenes/images.jpg" alt="Image" width="500"></p-image>
-                </div>
-            </div>
-            <div class="grid">
-                <div class="col-3">
-                    <p-inputNumber inputId="integeronly" [(ngModel)]="objeto1"></p-inputNumber>
-                </div>
-                <div class="col-3">
-                    <p-inputNumber inputId="integeronly" [(ngModel)]="objeto2"></p-inputNumber>
-                </div>
-                <div class="col-3">
-                    <p-inputNumber inputId="integeronly" [(ngModel)]="resultado" readonly></p-inputNumber>
-                </div>
-            </div>
-            <br> <br>
-            <div class="grid">
-                <div class="col-4">
-                    <p-button label="Submit" (onClick)="suma()"></p-button>
-                </div>
-                <div class="col-4">
-                    <button pButton pRipple label="Submit" class="p-button-success"></button>
-                </div>
-                <br> <br>
+            <h4>BOHEMIAN PROJECT</h4>
+            <p>PRODUCTOS</p>
+            <div class="grid" >
+                <div class="col-12 col-offset-3">
 
-
-                <br> <br>
-
-            </div>
-            <div class="grid">
-                <div class="col-3 col-offset-5">
-                    <p-rating [(ngModel)]="rating"></p-rating>
                 </div>
-            </div>
-            <div class="grid">
-                <div class="col-2">
-                    <p-button label="olakace" styleClass="p-button-link"></p-button>
-                </div>
-                <div class="col-10">
-                    <p-button icon="pi pi-user" styleClass="p-button-info"></p-button>
-                </div>
-                <div class="col-10 col-offset-5">
-                    <p-button label="Info" styleClass="p-button-info"></p-button>
-                    <p-button label="Warning" styleClass="p-button-warning"></p-button>
-                    <p-button label="Help" styleClass="p-button-help"></p-button>
-                    <p-button label="Danger" styleClass="p-button-danger"></p-button>
-                </div>
-
-
             </div>
 
 
             <div class="grid">
                 <div class="col-12">
-                    <p-dataView #dv [value]="products">
+
+                    <p-dataView #dv [value]="products" [rows]="5" [totalRecords]="12" [paginator]="true" [sortField]="sortField" [sortOrder]="sortOrder" >
+                        <ng-template pTemplate="header">
+                            <div class="flex flex-column md:flex-row md:justify-content-between">
+                                <p-dropdown [options]="sortOptions" [(ngModel)]="sortKey" placeholder="Sort By Price" (onChange)="onSortChange($event)" styleClass="mb-2 md:mb-0"></p-dropdown>
+                            </div>
+                        </ng-template>
+
                         <ng-template let-product pTemplate="listItem">
                             <div class="col-12">
                                 <div class="flex flex-column xl:flex-row xl:align-items-start p-4 gap-4">
-                                    <img class="w-9 sm:w-16rem xl:w-10rem shadow-2 block xl:block mx-auto border-round" [src]="'https://primefaces.org/cdn/primeng/images/demo/product/' + product.image" [alt]="product.name" />
-                                    <div class="flex flex-column sm:flex-row justify-content-between align-items-center xl:align-items-start flex-1 gap-4">
+                                    <img class="w-9 sm:w-16rem xl:w-10rem shadow-2 block xl:block mx-auto border-round"
+                                         [src]="'assets/imagenes/' + product.image"
+                                         [alt]="product.name"/>
+                                    <div
+                                        class="flex flex-column sm:flex-row justify-content-between align-items-center xl:align-items-start flex-1 gap-4">
                                         <div class="flex flex-column align-items-center sm:align-items-start gap-3">
                                             <div class="text-2xl font-bold text-900">{{ product.name }}</div>
-                                            <p-rating [(ngModel)]="product.rating" [readonly]="true" [cancel]="false"></p-rating>
+                                            <p-rating [(ngModel)]="product.rating" [readonly]="true"
+                                                      [cancel]="false"></p-rating>
                                             <div class="flex align-items-center gap-3">
                             <span class="flex align-items-center gap-2">
                                 <i class="pi pi-tag"></i>
                                 <span class="font-semibold">{{ product.category }}</span>
                             </span>
-                                                <p-tag [value]="product.inventoryStatus" [severity]="getSeverity(product)"></p-tag>
+                                                <p-tag [value]="product.inventoryStatus"
+                                                       [severity]="getSeverity(product)"></p-tag>
                                             </div>
                                         </div>
-                                        <div class="flex sm:flex-column align-items-center sm:align-items-end gap-3 sm:gap-2">
-                                            <span class="text-2xl font-semibold">{{'$'+ product.price }}</span>
-                                            <button pButton icon="pi pi-shopping-cart" class="md:align-self-end mb-2 p-button-rounded" [disabled]="product.inventoryStatus === 'OUTOFSTOCK'"></button>
+                                        <div>
+
+                                            <p-accordion>
+                                                <p-accordionTab header="DETALLES">
+                                                    <p>
+                                                        {{product.ampliacion}}
+                                                    </p>
+                                                </p-accordionTab>
+
+                                            </p-accordion>
+                                        </div>
+                                        <div
+                                            class="flex sm:flex-column align-items-center sm:align-items-end gap-3 sm:gap-2">
+                                            <span class="text-2xl font-semibold">{{ '$' + product.price }}</span>
+                                            <p-button icon="pi pi-whatsapp" styleClass="p-button-rounded p-button-success"
+                                                      [disabled]="product.inventoryStatus === 'OUTOFSTOCK'"
+                                                      (click)="redirect('WHATSAPP')"></p-button>
+                                            <p-button icon="pi pi-facebook" styleClass="p-button-rounded p-button-info"
+                                                      (click)="redirect('FACEBOOK')"></p-button>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </ng-template>
                     </p-dataView>
-                </div>
 
+                </div>
 
 
             </div>

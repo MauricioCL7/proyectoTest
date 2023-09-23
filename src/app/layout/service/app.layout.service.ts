@@ -34,7 +34,7 @@ export class LayoutService {
     };
 
     state: LayoutState = {
-        staticMenuDesktopInactive: false,
+        staticMenuDesktopInactive: true,
         overlayMenuActive: false,
         profileSidebarVisible: false,
         configSidebarVisible: false,
@@ -51,6 +51,7 @@ export class LayoutService {
     overlayOpen$ = this.overlayOpen.asObservable();
 
     onMenuToggle() {
+        console.log("hollla")
         if (this.isOverlay()) {
             this.state.overlayMenuActive = !this.state.overlayMenuActive;
             if (this.state.overlayMenuActive) {
@@ -63,7 +64,6 @@ export class LayoutService {
         }
         else {
             this.state.staticMenuMobileActive = !this.state.staticMenuMobileActive;
-
             if (this.state.staticMenuMobileActive) {
                 this.overlayOpen.next(null);
             }
