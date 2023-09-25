@@ -74,7 +74,11 @@ export class EmptyDemoComponent {
                 break;
 
             case 'FACEBOOK':
-                location.href = "https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/slice";
+                location.href = "https://www.facebook.com/people/DiDi-project/61551572532973/?mibextid=ZbWKwL";
+                break;
+
+            case 'INSTAGRAM':
+                location.href = "https://www.instagram.com/maurii.cl_7/";
                 break;
 
             default:

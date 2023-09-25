@@ -7,227 +7,254 @@ export class ProductService {
             {
                 id: '1000',
                 code: 'f230fh0g3',
-                name: 'CHAQUETA NEGRA',
+                name: 'ANNIVERSARY TEE',
                 description: 'Product Description',
-                image: 'chamarra1.jpeg',
-                price: 110,
-                category: 'CHAQUETAS',
+                image: 'pol1.gif',
+                price: 115,
+                category: 'Poleras',
                 quantity: 24,
                 inventoryStatus: 'INSTOCK',
                 rating: 0,
-                ampliacion:'CHAQUETA NEGRA DE PIEL DE DURAZNO CON FRISA DENTRO '
+                ampliacion:'Hermano, no hay nada que odio más que que todos me canten la canción de feliz cumpleaños en mi día. Pero esta camiseta es genial.' +
+                    'Camiseta básica de cuello redondo.\n' +
+                    'Impresión digital de alta resolución.\n' +
+                    'Jersey sencillo premium de 300 g.'
 
             },
             {
                 id: '1001',
                 code: 'nvklal433',
-                name: 'RELOJ FOSSIL MACHINE',
+                name: 'CAMISETA NUDE CUP BLANCO',
                 description: 'Product Description',
-                image: 'chamarra2.jpeg',
-                price: 91,
-                category: 'Accessories',
+                image: 'pol3.gif',
+                price: 40,
+                category: 'Poleras',
                 quantity: 61,
                 inventoryStatus: 'INSTOCK',
                 rating: 0,
-                ampliacion:'Importado\n' +
-                    'Fossil siempre se ha inspirado en la creatividad y el ingenio estadounidenses. Desde 1984, nos hemos esforzado por darle nueva vida a la industria fabricando relojes y accesorios modernos y de calidad que sean divertidos y accesibles.\n' +
-                    'Machine, una celebración de la fabricación estadounidense, es un clásico por una razón. Este reloj combina lo industrial (como una corona con cabeza de tornillo) con lo refinado. Su caja presenta una textura en forma de diamante que recuerda una técnica de mecanizado tradicional.\n' +
-                    'Tamaño de la caja: 42 mm; Tamaño de la banda: 22 mm; movimiento de cuarzo con pantalla analógica de tres manecillas y ventana de fecha; lente de cristal mineral endurecido resistente a rayones; importado\n' +
-                    'Caja de acero inoxidable negra con esfera negra con rayos de sol; pulsera de acero inoxidable negra; los eslabones se pueden quitar para un ajuste personalizado; intercambiable con todas las correas de reloj Fossil de 22 mm\n' +
-                    'Resistente al agua hasta 50 m (165 pies): adecuado para períodos cortos de natación y ducha recreativa, pero no para buceo ni snorkel; 5 cajeros automáticos\n' +
-                    'Personaliza tu reloj con un grabado gratuito en una tienda Fossil local. El grabado está disponible en las tiendas Fossil participantes a precio completo y outlet de EE. UU. y Canadá. Este servicio no es aplicable a todos los accesorios.'
+                ampliacion:'CTRL+C CTRL+V. Descripción no disponible debido a derechos de autor. Presione el botón Agregar al carrito directamente.' +
+                    'Serigrafía de triple composición en el frente\n' +
+                    'Serigrafía con tinta agrietada en el gráfico posterior'
             },
             {
                 id: '1002',
                 code: 'zz21cz3c1',
-                name: 'XIAOMI Mi BAND',
+                name: 'CAMISETA DE FÚTBOL PSICO',
                 description: 'Product Description',
-                image: 'blue-band.jpg',
-                price: 105.50,
-                category: 'Fitness',
+                image: 'polera2.jpeg',
+                price: 62.50,
+                category: 'Poleras',
                 quantity: 2,
                 inventoryStatus: 'INSTOCK',
                 rating: 0,
-                ampliacion: 'Xiaomi está un paso por delante: la marca de dispositivos portátiles número uno del mundo. La nueva Mi Band 7 es otro gran paso adelante.\n' +
-                    'Pantalla AMOLED de 1,62", alta resolución 192x490 y brillo de hasta 500 nits. Grandes mejoras con respecto a Mi Band 6: 1,52", 152x486 y 450 nits.\n' +
-                    '¡120 modos de fitness frente a 30 modos de fitness en Mi Band 6! La capacidad de la batería aumentó de 125 mAh en Mi Band 6 a 180 mAh ahora. Tiempo de carga unas 2 horas. Duración de la batería de 15 días. Cargue fácilmente con un cargador magnético para su estilo de vida en movimiento.\n' +
-                    'Nuevo sensor de oxígeno en sangre + monitorización de frecuencia cardíaca las 24 horas. Realice un seguimiento de 120 actividades diferentes.\n' +
-                    'Tecnología de sensores mejorada y Bluetooth 5.2.\n' +
-                    'Muchas más funciones: Cronómetro/Despertador/Temporizador/Buscar mi teléfono/Desbloqueo de teléfono/Recordatorio de evento/Modo No molestar/pantalla de bloqueo/control de música en la banda/Se carga fácilmente con pines de carga magnéticos/Control remoto de la cámara fotográfica/Salud femenina monitorizar/oxígeno en sangre y más'
+                ampliacion:'Ir a jugar al fútbol 2%.\n' +
+                    '\n' +
+                    'Ir a after-hours en Ibiza 80%.\n' +
+                    '\n' +
+                    'El pijama de tu novio/a 18%.' +
+                    'Tela de malla\n' +
+                    'Psico AOP\n' +
+                    '100% poliéster'
             },
             {
                 id: '1003',
                 code: '244wgerg2',
-                name: 'CAMISETA AZUL',
+                name: 'CAMISETA SPORT OLD BLANCO',
                 description: 'Product Description',
-                image: 'blue-t-shirt.jpg',
-                price: 10.36,
-                category: 'Clothing',
+                image: 'pol5.gif',
+                price: 40.36,
+                category: 'Poleras',
                 quantity: 25,
                 inventoryStatus: 'INSTOCK',
                 rating: 0,
-                ampliacion:'60% Poliéster reciclado, 30% Algodón, 10% Rayón\n' +
-                    'Importado\n' +
-                    'Cierre de tirar.\n' +
-                    'Lavar a maquina\n' +
-                    'BÁSICOS QUE ESTÁN LEJOS DE LO BÁSICO: una colección elegante de elementos esenciales modernos y modernos diseñados para la comodidad, hechos para cada cuerpo. Sea usted mismo en Hanes Originals.\n' +
-                    'Sensación suave y cómoda: nuestro mejor algodón, poliéster y rayón se unen para hacer esta camiseta suave y cómoda para hombre.\n' +
-                    'COMODIDAD AÑADIDA: cinta de hombro a hombro para mayor comodidad.\n' +
-                    'Calidad Hanes: fabricado por expertos con sisas cosidas con doble aguja.\n' +
-                    'Se adapta perfectamente: esta camiseta para hombre tiene un ajuste estándar para un estilo clásico.\n' +
-                    'FABRICADO CON MATERIALES RECICLADOS: una parte de esta camiseta se confeccionó con poliéster reciclado.\n' +
-                    'esta camiseta para hombre está disponible en una variedad de tallas como: XS, S, M, L, XL, XXL, XXXL'
+                ampliacion:'Soy de esos que juegan billar 3 veces al año muy borracho en un bar, pero cada vez que voy a tirar me froto el palo 34 veces con la tiza azul para pensar que soy un profesional.' +
+                    '100% algodón \n' +
+                    '\n' +
+                    ' Ajuste estándar \n' +
+                    '\n' +
+                    ' Impresión digital de alta calidad'
             },
             {
                 id: '1004',
                 code: 'h456wer53',
-                name: 'PULSERA FERAKO',
+                name: 'CAMISETA RESACA JADE',
                 description: 'Product Description',
-                image: 'bracelet.jpg',
-                price: 15,
-                category: 'Accessories',
+                image: 'polera4.jpeg',
+                price: 30,
+                category: 'Poleras',
                 quantity: 28.33,
                 inventoryStatus: 'INSTOCK',
                 rating:0,
-                ampliacion:'Pulsera magnética de neodimio Pro: 46 imanes de neodimio en el interior de la pulsera de titanio para una mayor efectividad.\n' +
-                    'Pulsera de titanio: material de alta calidad, extremadamente ligero. A veces no puedes sentir su existencia. Es más resistente que el acero inoxidable pero pesa la mitad. 100% HIPOALERGÉNICO, SIN PLOMO NI NÍQUEL, resistente a los arañazos y resistente a la decoloración. El material del cierre es acero inoxidable, que es más duradero.\n' +
-                    'Diseño clásico: chapado al vacío IP negro de larga duración y revestimiento de laca, pulsera negra mate muy pulida más llamativa, con cierre fuerte que permanece en su sitio, fácil de combinar con todo tipo de ropa, relojes y accesorios.\n' +
-                    'Fácil de ajustar: largo 22,5 cm (8,86 pulgadas), ancho 1,5 cm (0,59 pulgadas), peso 40 g. Buen peso y cómodo de llevar. Viene con una herramienta de tamaño mejorada que le permite ajustar el tamaño fácilmente en casa.\n' +
-                    'Regalos de Navidad: elegante pulsera magnética para hombre empaquetada con una exquisita caja de joyería, perfecta para papá, esposo, familia, amigos durante Navidad, cumpleaños, aniversario, etc.'
+                ampliacion:'También tienes ese amigo alcohólico que dice que la resaca se cura bebiendo más.\n' +
+                    '(Sí, tiene razón)' +
+                    'Corte ajustado y recortado\n' +
+                    'Costilla de color en contraste.\n' +
+                    '100% algodón'
             },
             {
                 id: '1005',
                 code: 'av2231fwg',
-                name: 'BILLETERA DE CUERO',
+                name: 'SUDADERA PALAZZO MARRÓN',
                 description: 'Product Description',
-                image: 'brown-purse.jpg',
+                image: 'sudadera2.jpeg',
                 price: 42.53,
-                category: 'Accessories',
+                category: 'sudaderas',
                 quantity: 0,
                 inventoryStatus: 'INSTOCK',
                 rating: 0,
-                ampliacion:'100% cuero vacuno\n' +
-                    'Importado\n' +
-                    'Forro de cuero\n' +
-                    'Sin cierre de cierre\n' +
-                    'Sólo limpieza en seco\n' +
-                    'Fossil siempre se ha inspirado en la creatividad y el ingenio estadounidenses. Desde 1984, nos hemos esforzado por darle nueva vida a la industria fabricando relojes y accesorios modernos y de calidad que sean divertidos y accesibles.\n' +
-                    'Un diseño pulido le da a nuestro bolso plegable Wade de cuero negro un toque adicional de carácter de inspiración vintage. Nuestro cuero de alta calidad es conocido por su suavidad y su capacidad de lucir bien con el tiempo.\n' +
-                    'Material Exterior: 100% Cuero Genuino, importado.\n' +
-                    'Detalles interiores: 1 compartimento para billetes, 2 ventanas para identificación, 2 bolsillos deslizantes, 8 ranuras para tarjetas de crédito\n' +
-                    'Medidas:439"L x 050"W x 35"H'
+                ampliacion:'Literalmente, la sudadera con capucha perfecta para que te la robe tu novia.' +
+                    'Sudadera con capucha Tejido 100% algodón .\n' +
+                    'Paneles colorblock en color de contraste.'
             },
             {
                 id: '1006',
                 code: 'bib36pfvm',
-                name: 'BRASALETE CHAKRA',
+                name: 'CAMPANA ORIGINS CIAN',
                 description: 'Product Description',
-                image: 'chakra-bracelet.jpg',
-                price: 6.28,
-                category: 'Accessories',
+                image: 'sudadera3.jpeg',
+                price: 60.28,
+                category: 'sudaderas',
                 quantity: 5,
-                inventoryStatus: 'LOWSTOCK',
+                inventoryStatus: 'INSTOCK',
                 rating: 0,
-                ampliacion:'TAMAÑO: el diámetro de cada piedra de lava y cuenta de chakra es de 8 mm/0,31 pulgadas. El diámetro de las pulseras curativas elásticas para mujer es de 7 cm / 2,75 pulgadas. Estas pulseras elásticas con cuentas para hombre son ajustables y se adaptan a la mayoría de mujeres y hombres.\n' +
-                    'MATERIAL: cada pulsera de cristales y piedras curativas está hecha de docenas de piedras de lava natural y 7 cuentas de chakra, resistentes y duraderas, no se rompen ni se decoloran fácilmente. Las piedras de lava vienen en tres colores: blanco, negro y marrón. Las cuentas de los chakras son ágata roja, ojo de tigre ámbar, piedra real verde, amatista, lapislázuli y turquesa.\n' +
-                    'Función de pulsera: las pulseras de cuentas de chakras para mujer son de baja densidad y ligeras. Su sensación fresca en las manos puede reducir la ansiedad. Las pulseras trenzadas de chakras restauran y equilibran tu espíritu, saludable emocional y físicamente. Puedes dejar caer aceite esencial en la pulsera, las cuentas de lava absorben los aceites esenciales y duran todo el día. Ayudarte a meditar.\n' +
-                    'REGALO PERFECTO: las pulseras de chakras para mujer son un maravilloso regalo para amantes, familiares y amigos. Pueden usarlos para participar en yoga, deportes, meditación, etc. Los accesorios de meditación también pueden ser pulseras de cuentas para hombres, pulseras a juego para parejas, pulseras estéticas, pulseras para adolescentes, pulseras para niños, pulseras para parejas, pulseras para hombres. .'
+                ampliacion:'Origins Hood ofrece una gama de colores que van desde el negro atemporal y el blanquecino hasta los tonos tierra. Mejora tu juego, donde la autoexpresión no conoce límites.' +
+                    'Logotipo del parche bordado.\n' +
+                    '80% Algodón, 20% Poliéster.\n' +
+                    'Forro polar cepillado de 400 g/m².'
             },
             {
                 id: '1007',
                 code: 'mbvjkgip5',
-                name: 'Galaxy Earrings',
+                name: 'NOT SORRY HODDIE NEGRO',
                 description: 'Product Description',
-                image: 'galaxy-earrings.jpg',
+                image: 'sudade2.gif',
                 price: 34,
-                category: 'Accessories',
+                category: 'sudaderas',
                 quantity: 23,
                 inventoryStatus: 'INSTOCK',
-                rating: 5
+                rating: 0,
+                ampliacion: 'Amamos lo que hacemos y estamos orgullosos de ello. Esta capucha negra representa cómo estamos aquí para quedarnos y no nos arrepentimos de nada.' +
+                    '80% algodón y 20% poliéster\n' +
+                    'Logotipo bordado en la parte delantera. \n' +
+                    'Estrella bordada en la sudadera con capucha.\n' +
+                    'Mezcla de bordado y chenilla en la espalda'
             },
             {
                 id: '1008',
                 code: 'vbb124btr',
-                name: 'Game Controller',
+                name: 'CAPUCHA HEAD IN THE CLOUDS ROSA',
                 description: 'Product Description',
-                image: 'game-controller.jpg',
+                image: 'sudade1.gif',
                 price: 99,
-                category: 'Electronics',
+                category: 'sudaderas',
                 quantity: 2,
-                inventoryStatus: 'LOWSTOCK',
-                rating: 4
+                inventoryStatus: 'INSTOCK',
+                rating: 0,
+                ampliacion:'Para aquellos con la cabeza perdida entre las nubes del cielo, les traemos su pieza de declaración. La sudadera con capucha rosa que te representará a partir de ahora.' +
+                    'Estampado abullonado en el pecho y la espalda.\n' +
+                    '80% algodón y 20% poliéster'
             },
             {
                 id: '1009',
                 code: 'cm230f032',
-                name: 'Gaming Set',
+                name: 'POLO DE CASINO',
                 description: 'Product Description',
-                image: 'gaming-set.jpg',
-                price: 299,
-                category: 'Electronics',
+                image: 'sudade4.gif',
+                price: 79,
+                category: 'polos',
                 quantity: 63,
                 inventoryStatus: 'INSTOCK',
-                rating: 3
+                rating: 0,
+                ampliacion:'Insistir en parecerse a Héctor Bellerín y seguir pareciéndose más a Ronaldo (el brasileño) retirado.' +
+                    'Polo de rugby en tejido interlock.\n' +
+                    'Estampado especial en toda la prenda diseñado para colaboración con cuello acanalado.\n' +
+                    'Gran logotipo en la parte trasera.'
             },
             {
                 id: '1010',
                 code: 'plb34234v',
-                name: 'Gold Phone Case',
+                name: 'PANTALÓN DE CHÁNDAL CLUB',
                 description: 'Product Description',
-                image: 'gold-phone-case.jpg',
-                price: 24,
-                category: 'Accessories',
+                image: 'pants1.jpeg',
+                price: 54,
+                category: 'Pantalones',
                 quantity: 0,
                 inventoryStatus: 'OUTOFSTOCK',
-                rating: 4
+                rating: 0,
+                ampliacion: 'El conjunto perfecto para ser el más estiloso de la zona alta y el más respetado del centro.' +
+                    'Pantalones de chándal .\n' +
+                    'Bolsillo con rayas incrustadas en la pierna.\n' +
+                    'Abertura inferior con tirador de cremallera personalizado'
             },
             {
                 id: '1011',
                 code: '4920nnc2d',
-                name: 'Green Earbuds',
+                name: 'PANTALÓN DEPORTIVO ORIGINS NEGRO',
                 description: 'Product Description',
-                image: 'green-earbuds.jpg',
+                image: 'pants2.jpeg',
                 price: 89,
-                category: 'Electronics',
+                category: 'Pantalones',
                 quantity: 23,
                 inventoryStatus: 'INSTOCK',
-                rating: 4
+                rating: 0,
+                ampliacion: 'Los pantalones deportivos Origins ofrecen una gama de colores que van desde el negro atemporal y el blanco roto hasta los tonos tierra. Mejora tu juego, donde la autoexpresión no conoce límites.' +
+                    'Logotipo del parche bordado.\n' +
+                    '80% Algodón, 20% Poliéster.\n' +
+                    'Forro polar cepillado de 400 g/m².'
             },
             {
                 id: '1012',
                 code: '250vm23cc',
-                name: 'Green T-Shirt',
+                name: 'PANTALÓN DENIM MARRÓN',
                 description: 'Product Description',
-                image: 'green-t-shirt.jpg',
+                image: 'pants3.jpeg',
                 price: 49,
-                category: 'Clothing',
+                category: 'Pantalones',
                 quantity: 74,
                 inventoryStatus: 'INSTOCK',
-                rating: 5
+                rating: 0,
+                ampliacion: 'Nuestros primeros jeans y el último par que necesitarás. Un denim de pierna recta y corte holgado. La comodidad se combina con el estilo en esta combinación de colores marrón.' +
+                    'Sarga 100% Algodón\n' +
+                    'Unisex\n' +
+                    'Botón personalizado\n' +
+                    'Parche bordado\n' +
+                    'De poca altura'
             },
             {
                 id: '1013',
                 code: 'fldsmn31b',
-                name: 'Grey T-Shirt',
+                name: 'PANTALÓN DENIM AZUL BLANQUEADO',
                 description: 'Product Description',
-                image: 'grey-t-shirt.jpg',
+                image: 'pants4.jpeg',
                 price: 48,
-                category: 'Clothing',
+                category: 'Pantalones',
                 quantity: 0,
-                inventoryStatus: 'OUTOFSTOCK',
-                rating: 3
+                inventoryStatus: 'INSTOCK',
+                rating: 0,
+                ampliacion: 'Nuestros primeros jeans y el último par que necesitarás. Un denim de pierna recta y corte holgado. La comodidad se combina con el estilo en esta combinación de colores azul blanqueado' +
+                    'Sarga 100% Algodón\n' +
+                    'Unisexo\n' +
+                    'Botón personalizado\n' +
+                    'Parche bordado\n' +
+                    'De poca altura'
             },
             {
                 id: '1014',
                 code: 'waas1x2as',
-                name: 'Headphones',
+                name: 'PANTALONES CARGO NEGRO',
                 description: 'Product Description',
-                image: 'headphones.jpg',
-                price: 175,
-                category: 'Electronics',
+                image: 'pants5.jpeg',
+                price: 75,
+                category: 'Pantalones',
                 quantity: 8,
-                inventoryStatus: 'LOWSTOCK',
-                rating: 5
+                inventoryStatus: 'INSTOCK',
+                rating: 0,
+                ampliacion: 'Podríamos decir que son fantásticos, increíbles, inigualables, los mejores del mercado. Pero será mejor que me calle porque este  vídeo  habla por ellos' +
+                    'Frente ergonómico\n' +
+                    'Bolsillo con parche de fatiga\n' +
+                    'Trabilla de tela en el bolsillo lateral\n' +
+                    'Etiqueta de jacquard en el lateral\n' +
+                    'Fondo ajustable'
             },
             {
                 id: '1015',
