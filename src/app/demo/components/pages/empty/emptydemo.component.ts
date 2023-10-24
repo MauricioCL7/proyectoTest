@@ -78,7 +78,7 @@ export class EmptyDemoComponent {
                 break;
 
             case 'INSTAGRAM':
-                location.href = "https://www.instagram.com/maurii.cl_7/";
+                location.href = "https://www.instagram.com/didi_project_23/";
                 break;
 
             default:
